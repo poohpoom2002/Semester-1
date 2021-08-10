@@ -11,6 +11,6 @@ int main(){
     if(i>n){
         printf("This number is a prime number.");
     }
-
+    
     return 0;
 }

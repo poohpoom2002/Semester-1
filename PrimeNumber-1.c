@@ -13,6 +13,6 @@ int main(){
     else{
         printf("This number is not a prime number.");
     }
-
+    
     return 0;
 }
