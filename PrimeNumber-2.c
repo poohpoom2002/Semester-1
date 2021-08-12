@@ -12,7 +12,7 @@ int main(){
                 break;
             }
         }
-        if(n==1){
+        if(n<=1){
             printf("This number is not a prime number.\n");
         }
         else if(i>n){
