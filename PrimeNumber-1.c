@@ -17,6 +17,7 @@ int main(){
        else{
            printf("This number is not a prime number.\n");
         }
+        count=0;
     }
     while(n!=-99);
 
