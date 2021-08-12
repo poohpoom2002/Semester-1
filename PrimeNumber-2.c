@@ -12,7 +12,10 @@ int main(){
                 break;
             }
         }
-        if(i>n){
+        if(n==1){
+            printf("This number is not a prime number.\n");
+        }
+        else if(i>n){
             printf("This number is a prime number.\n");
         }
     }
