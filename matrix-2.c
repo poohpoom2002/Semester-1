@@ -11,7 +11,7 @@ int main(){
     }
     for(i = 0; i < m*n; i++){
         printf("%d ",matrix_1[i] + matrix_2[i]);
-        if(i % n == 2){
+        if((i + 1) % n == 0){
             printf("\n");
         }
     }
